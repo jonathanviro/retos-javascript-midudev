@@ -61,7 +61,7 @@ const crearArbolNavidad = (altura) => {
 
         return arbol.slice(0, arbol.length-1);  //Retornamos el arbol completo sin el ultimo salto de linea para que no se caiga en los test
     } else { 
-        return 'No se admiten negativos'
+        return 'Altura no permitida'
     }
 };
 
