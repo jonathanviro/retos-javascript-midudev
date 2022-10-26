@@ -59,7 +59,7 @@ const crearArbolNavidad = (altura) => {
         const hojas = dibujarHojas(altura);
         const arbol = hojas + base + base;
 
-        return arbol.slice(0, arbol.length-1);  //Retornamos el arbol completo sin el ultimo salto de linea para que nos e caiga en los test
+        return arbol.slice(0, arbol.length-1);  //Retornamos el arbol completo sin el ultimo salto de linea para que no se caiga en los test
     } else { 
         return 'No se admiten negativos'
     }
