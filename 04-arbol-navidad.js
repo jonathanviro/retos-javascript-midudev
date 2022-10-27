@@ -65,7 +65,15 @@ const crearArbolNavidad = (altura) => {
     }
 };
 
-console.log(crearArbolNavidad(10));
+console.log(crearArbolNavidad(50));
+
+
+
+
+
+
+
+
 
 
 
